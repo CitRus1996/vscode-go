@@ -1,4 +1,4 @@
-module github.com/golang/vscode-go/test/testdata/vuln
+module github.com/CitRus1996/vscode-go/test/testdata/vuln
 
 go 1.14
 

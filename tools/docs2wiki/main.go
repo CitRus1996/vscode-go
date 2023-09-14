@@ -34,7 +34,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	genFooter := footerGenerator("https://github.com/golang/vscode-go/edit/master/docs/")
+	genFooter := footerGenerator("https://github.com/CitRus1996/vscode-go/edit/master/docs/")
 	if err := rewriteLinks(flag.Arg(0), genFooter, *writeFlag); err != nil {
 		errorf("failed to rewrite links: %v", err)
 		os.Exit(1)
