@@ -1,4 +1,4 @@
-module github.com/golang/vscode-go
+module github.com/CitRus1996/vscode-go
 
 go 1.16
 
